@@ -32,7 +32,7 @@ function Landing() {
     return (
         <div className="container">
             <div ref={header} className="header">
-                <h1 className="ml12">Gowtham Eswaran</h1>
+                <h1 className="ml12">Gowtham Eswar</h1>
             </div>
             <div ref={leftColumn} className="left column">
                 <div className="leftHeader">
