@@ -26,6 +26,7 @@ function Landing() {
             image2: image2,
             displacementImage: overlay
         })
+        console.log(image_animate)
     }, [])
 
     return (
