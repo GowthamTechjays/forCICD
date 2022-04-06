@@ -5,6 +5,7 @@ import image from "../assets//bg.jpeg";
 import image2 from "../assets/image2.jpg";
 import overlay from "../assets/overlay.png";
 
+
 function Landing() {
 
     const header = useRef(null)
@@ -26,13 +27,13 @@ function Landing() {
             image2: image2,
             displacementImage: overlay
         })
-        console.log(image_animate)
+        console.log("process",process.env)
     }, [])
 
     return (
         <div className="container">
             <div ref={header} className="header">
-                <h1 className="ml12">Gowtham Eswar</h1>
+                <h1 className="ml12">{process.env.REACT_APP_MY_ENVIRONMENT_VARIABLE}</h1>
             </div>
             <div ref={leftColumn} className="left column">
                 <div className="leftHeader">
