@@ -27,7 +27,7 @@ function Landing() {
             image2: image2,
             displacementImage: overlay
         })
-        console.log("process",process.env, image_animate)
+        console.log("process check",process.env, image_animate)
     }, [])
 
     return (
